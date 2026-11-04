@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hope Haven Christian School</title>
+  <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: antiquewhite;
+    }
+    header{
+        background-color: #4CAF50;
+        color: darkgreen;
+        padding: 25px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 18px;
+    }
+    .logo{
+        width: 90px;
+        height: auto;
+        display: block;
+        margin-right: 10px;
+    }
+    .brand{
+        text-align: left;
+    }
+    header h1{
+        margin-bottom: 10px;
+    }
+    nav{
+        background-color: darkgreen;
+        padding: 15px;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    nav a{
+        color: white;
+        text-decoration: none;
+        margin: 0;
+        font-weight: bold;
+    }
+    nav a:hover{
+        color:yellow;
+        background-color: brown;
+    }
+    .login-link {
+        margin-left: auto;
+        padding: 8px 14px;
+        border: 1px solid white;
+        border-radius: 4px;
+        background-color: #2e7d32;
+    }
+    .banner img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+    }
+    .welcome{
+        padding: 25px;
+        text-align: center;
+    }
+    .welcome p{
+        line-height: 1.8;
+        padding: 20px;
+    }
+    .content{
+        display: flex;
+        justify-content: space-around;
+        padding: 25px;
+        gap: 20px;
+    }
+    .video-box {
+        margin-top: 15px;
+    }
+    .video-box iframe {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        min-height: 360px;
+        height: 420px;
+        border: 0;
+        display: block;
+    }
+    .content div{
+        flex: 1;
+        background-color: white;
+        padding: 20px;
+        border: 1px solid lightgreen;
+    }
+    h2 {
+        margin-bottom: 15px;
+        color: darkgreen;
+    }
+    ul, ol {
+        padding-left: 20px;
+        line-height: 2;
+    }
+    table{
+        width: 90%;
+        border-collapse: collapse;
+        margin: 20px auto;
+        background-color: white;
+    }
+    th, td{
+        border: 1px solid black;
+        padding: 12px;
+        text-align: left;
+    }
+    th{
+        background-color: lightgreen;
+    }
+    footer {
+        background-color: darkgreen;
+        color: white;
+        text-align: center;
+        padding: 20px;
+        margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+    <header>
+        <img src="HHR+Logo+Stacked+RGB.webp" alt="Hope Haven Christian School logo" class="logo">
+        <div class="brand">
+            <h1>Hope Haven Christian School</h1>
+            <p>Learn . Practice . Excel</p>
+        </div>
+    </header>
+    <nav>
+    <a href="#">Home</a>
+     <a href="#">About </a>
+     <a href="#">Academics</a>
+     <a href="#">Programs</a>
+     <a href="#">Gallery</a>
+     <a href="#">Contact</a>
+     <a href="#" class="login-link">Login</a>
+    </nav>
+<section class="banner">
+    <img src="hopehaven.jpg" alt="Hope Haven Christian School">
+</section>
+
+<section class="welcome">
+    <h2>Welcome to Our School</h2>
+    <p>Hope Haven Christian School is committed to providing a quality education with a strong foundation in Christian values, technology, and innovation.</p>
+</section>
+
+<section class="content">
+    <div>
+        <h2>Key features</h2>
+        <ul>
+            <li>Quality education</li>
+            <li>Skilled teachers</li>
+            <li>Modern labs</li>
+            <li>Christian values</li>
+        </ul>
+        <div class="video-box">
+            <iframe src="https://www.youtube.com/embed/rP6y4qwIiow" title="School video 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div>
+        <h2>Our Programs</h2>
+        <ol>
+            <li>Software Development</li>
+            <li>Networking and Cybersecurity</li>
+            <li>Robotics & IOT</li>
+            <li>Entrepreneurship</li>
+        </ol>
+        <div class="video-box">
+            <iframe src="https://www.youtube.com/embed/Vqe5bIT6iCY?si=Fp9naPvdcudyjG8-" title="School video 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+
+    <div>
+       <h2>School Information</h2>
+       <table>
+        <tr>
+            <th>School Name</th>
+            <th>Information</th>
+        </tr>
+        <tr>
+            <td>Hope Haven Christian School</td>
+            <td></td>
+        </tr>
+        <tr>
+            <td>Location</td>
+            <td>Kigal, Rwanda</td>
+        </tr>
+        <tr>
+            <td>Founded</td>
+            <td>2011</td>
+        </tr>
+        <tr>
+            <td>Motto</td>
+            <td>Learn . Practice . Excel</td>
+        </tr>
+        </table>
+        <div class="video-box">
+            <iframe src="https://www.youtube.com/embed/Vqe5bIT6iCY" title="School video 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+
+</section>
+<footer>
+    <p>
+    &copy; 2026 Hope Haven Christian School. All Rights reserved.
+    </p>
+    <p>
+        Contact:info@hopehavenschool.org 
+    </p>
+</footer>
+
+</body>
+</html>
